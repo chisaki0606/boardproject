@@ -1,4 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block customcss %}
+<link rel='stylesheet' type='text/css' href="{% static 'create/style.css' %}" >
+{% endblock customcss %}
 
 {% block content %}
 
